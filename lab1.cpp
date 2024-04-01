@@ -210,18 +210,18 @@ void TND004::stable_partition_iterative(std::vector<int>& V, std::function<bool(
 	std::vector<int> v_even;         // S(n) = O(n)
 	std::vector<int> v_odd;          // S(n) = O(n) , will contain n elements
 
-	for (int i : V) {                // T(n) = O(n)
+	for (int i : V) {                        // T(n) = O(n)
 
-		if (p(i))                    // T(n) = O(1)
+		if (p(i))                        // T(n) = O(1)
 			v_even.push_back(i);     // T(n) = O(1)
 		else
 			v_odd.push_back(i);      // T(n) = O(1)
 	}
 
-	for (int i : v_odd)              // T(n) = O(n)
-		v_even.push_back(i);         // T(n) = O(1)
+	for (int i : v_odd)                      // T(n) = O(n)
+		v_even.push_back(i);             // T(n) = O(1)
 
-	V = v_even;                      // T(n) = O(1)
+	V = v_even;                              // T(n) = O(1)
 
 	// For this function: 
 	// T(n) = 2*O(n) + 5  =>  T(n) = O(n)
@@ -237,12 +237,12 @@ std::vector<int>::iterator TND004::stable_partition(std::vector<int>::iterator f
 	auto dist = std::distance(first, last); // S(n) = O(1)
 
 	// Base case 
-	if (dist == 0) {              // T(n) = O(1)
+	if (dist == 0) {                  // T(n) = O(1)
 		return first;
 	}
 
 	// Base case
-	else if (dist == 1) {         // T(n) = O(1)
+	else if (dist == 1) {             // T(n) = O(1)
 
 		if (p(*first))            // T(n) = O(1)
 			return last;
