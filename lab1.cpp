@@ -207,8 +207,8 @@ void execute(std::vector<int>& V, const std::vector<int>& res) {
 // Iterative algorithm
 void TND004::stable_partition_iterative(std::vector<int>& V, std::function<bool(int)> p) {
 
-	std::vector<int> v_even;
-	std::vector<int> v_odd;
+	std::vector<int> v_even;         // S(n) = O(n)
+	std::vector<int> v_odd;          // S(n) = O(n) , will contain n elements
 
 	for (int i : V) {                // T(n) = O(n)
 
@@ -223,7 +223,9 @@ void TND004::stable_partition_iterative(std::vector<int>& V, std::function<bool(
 
 	V = v_even;                      // T(n) = O(1)
 
-	// For this function T(n) = 2*O(n) + 5 => T(n) = O(n)
+	// For this function: 
+	// T(n) = 2*O(n) + 5  =>  T(n) = O(n)
+	// S(n) = 2*O(n)      =>  S(n) = O(n)
 }
 
 // Auxiliary function that performs the stable partition recursively
@@ -231,7 +233,8 @@ void TND004::stable_partition_iterative(std::vector<int>& V, std::function<bool(
 // at last-1. If there are items with property p then return an iterator to the end of the block
 // containing the items with property p. If there are no items with property p then return first.
 std::vector<int>::iterator TND004::stable_partition(std::vector<int>::iterator first, std::vector<int>::iterator last, std::function<bool(int)> p) {
-	auto dist = std::distance(first, last);
+
+	auto dist = std::distance(first, last); // S(n) = O(1)
 
 	// Base case 
 	if (dist == 0) {              // T(n) = O(1)
@@ -260,10 +263,12 @@ std::vector<int>::iterator TND004::stable_partition(std::vector<int>::iterator f
 		std::vector<int>::iterator it2 = stable_partition(mid, last, p);     // T(n) = O(log(n)), since n/2
 
 		// Make a new iterator, which is to be returned, that is rotated based on left, middle and right part of the original vector
-		auto it3 = std::rotate(it1, mid, it2);      // T(n) = O(n)
+		auto it3 = std::rotate(it1, mid, it2);      // T(n) = O(n) , S(n) = O(1)
 
 		return it3;
 	}
 
-	// For this function T(n) = 1 + 2*O(log(n)) + O(n) => T(n) = O(n)
+	// For this function:
+	// T(n) = 4 + 2*O(log(n)) + O(n)  =>  T(n) = O(n)
+	// S(n) = 2*O(1)                  =>  S(n) = O(1)
 }
