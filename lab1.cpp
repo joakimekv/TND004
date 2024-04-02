@@ -263,12 +263,12 @@ std::vector<int>::iterator TND004::stable_partition(std::vector<int>::iterator f
 		std::vector<int>::iterator it2 = stable_partition(mid, last, p);     // T(n) = O(log(n)), since n/2
 
 		// Make a new iterator, which is to be returned, that is rotated based on left, middle and right part of the original vector
-		auto it3 = std::rotate(it1, mid, it2);      // T(n) = O(n) , S(n) = O(1)
+		auto it3 = std::rotate(it1, mid, it2);      // T(n) = O(n) , S(n) = O(n)
 
 		return it3;
 	}
 
 	// For this function:
 	// T(n) = 4 + 2*O(log(n)) + O(n)  =>  T(n) = O(n)
-	// S(n) = 2*O(1)                  =>  S(n) = O(1)
+	// S(n) = 2*O(1)                  =>  S(n) = O(n)
 }
