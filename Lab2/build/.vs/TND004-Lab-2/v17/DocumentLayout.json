@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE7DB64-3026-3F97-A0F4-F9190374FD11}|Lab2.vcxproj|C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE7DB64-3026-3F97-A0F4-F9190374FD11}|Lab2.vcxproj|C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\lab2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE7DB64-3026-3F97-A0F4-F9190374FD11}|Lab2.vcxproj|C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE7DB64-3026-3F97-A0F4-F9190374FD11}|Lab2.vcxproj|C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lab2.cpp",
+              "DocumentMoniker": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\lab2.cpp",
+              "RelativeDocumentMoniker": "..\\code\\lab2.cpp",
+              "ToolTip": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\lab2.cpp",
+              "RelativeToolTip": "..\\code\\lab2.cpp",
+              "ViewState": "AQIAACABAAAAAAAAAAAAAC4BAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-08T10:50:22.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "node.h",
+              "DocumentMoniker": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\node.h",
+              "RelativeDocumentMoniker": "..\\code\\node.h",
+              "ToolTip": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\node.h",
+              "RelativeToolTip": "..\\code\\node.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAjwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-08T10:05:01.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "set.h",
+              "DocumentMoniker": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\set.h",
+              "RelativeDocumentMoniker": "..\\code\\set.h",
+              "ToolTip": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\set.h",
+              "RelativeToolTip": "..\\code\\set.h",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAjwLUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-08T09:52:56.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "set.cpp",
+              "DocumentMoniker": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\set.cpp",
+              "RelativeDocumentMoniker": "..\\code\\set.cpp",
+              "ToolTip": "C:\\Users\\Joakim\\Desktop\\TND004\\lab2\\code\\set.cpp",
+              "RelativeToolTip": "..\\code\\set.cpp",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-08T09:52:52.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

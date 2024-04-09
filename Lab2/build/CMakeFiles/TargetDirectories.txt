@@ -1,0 +1,3 @@
+C:/Users/Joakim/Desktop/TND004/lab2/build/CMakeFiles/Lab2.dir
+C:/Users/Joakim/Desktop/TND004/lab2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Joakim/Desktop/TND004/lab2/build/CMakeFiles/ZERO_CHECK.dir

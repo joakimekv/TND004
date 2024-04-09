@@ -1,0 +1,3 @@
+﻿  set.cpp
+LINK : warning LNK4300: ignoring '/INCREMENTAL' because input module contains ASAN metadata
+  Lab2.vcxproj -> C:\Users\Joakim\Desktop\TND004\lab2\build\Debug\Lab2.exe
